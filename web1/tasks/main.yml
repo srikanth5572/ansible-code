@@ -1,3 +1,2 @@
----
-- include playbook/install.yml
-- include playbook/install.yml
+- include: playbook/install.yml
+- include: playbook/install.yml
