@@ -2,3 +2,4 @@ package_name: httpd
 service_name: httpd
 service_state: restarted
 package_state: latest
+port: 80
