@@ -1,9 +1,3 @@
 ---
-- name: install httpd
-  yum:
-    name: httpd
-    state: latest
-- name: start service
-  service:
-    name: httpd
-    state: started
+- include playbook/install.yml
+- include playbook/install.yml
