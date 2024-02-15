@@ -1,4 +1,4 @@
 - name: install httpd
   yum:
-    name: httpd
-    state: latest
+    name: "{{package_name}}"
+    state: "{{package_state}}"
