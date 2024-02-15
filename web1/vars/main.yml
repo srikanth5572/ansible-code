@@ -1,4 +1,4 @@
 package_name: httpd
 service_name: httpd
-service_state: started
+service_state: restarted
 package_state: latest
